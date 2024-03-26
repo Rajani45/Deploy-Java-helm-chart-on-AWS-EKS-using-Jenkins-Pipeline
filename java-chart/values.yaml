@@ -43,6 +43,7 @@ service:
   type: NodePort
   port: 80
   targetPort: 8080
+  nodePort: 30005
   protocol: TCP
   name: java-chart
 
